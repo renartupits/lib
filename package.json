@@ -1,6 +1,6 @@
 {
   "name": "@renartupits/lib",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "main": "dist/my-component-library.umd.js",
   "module": "dist/my-component-library.es.js",
   "exports": {
@@ -26,6 +26,7 @@
   "author": "Renar Tupits",
   "license": "ISC",
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
     "@radix-ui/react-tooltip": "^1.1.6",
     "@typescript-eslint/eslint-plugin": "^8.19.1",
     "class-variance-authority": "^0.7.1",

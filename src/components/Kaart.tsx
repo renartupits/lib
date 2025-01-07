@@ -8,7 +8,7 @@ interface ButtonProps {
 export const Kaart: React.FC<ButtonProps> = ({ children, onClick }) => {
   return (
     <button
-      className="rounded bg-blue-500 px-4 py-20 text-white hover:bg-blue-600"
+      className="rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"
       onClick={onClick}
     >
       {children}
