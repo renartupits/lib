@@ -1,6 +1,6 @@
 {
   "name": "@renartupits/lib",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/my-component-library.umd.js",
   "module": "dist/my-component-library.es.js",
   "exports": {
@@ -10,7 +10,7 @@
       "require": "./dist/my-component-library.umd.js"
     }
   },
-  "./style.css": "./dist/lib.css",
+  "./lib.css": "./dist/lib.css",
   "files": ["dist"],
   "scripts": {
     "build": "vite build",
