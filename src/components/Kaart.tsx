@@ -1,4 +1,4 @@
-// src/Button.tsx
+// src/Kaart.tsx
 import React from 'react';
 
 interface ButtonProps {

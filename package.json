@@ -10,9 +10,9 @@
       "require": "./dist/my-component-library.umd.js"
     }
   },
+  "./style.css": "./dist/lib.css",
   "files": ["dist"],
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext ts,tsx",
     "prepublishOnly": "pnpm run build"
