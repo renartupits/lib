@@ -1,6 +1,6 @@
 {
   "name": "@renartupits/lib",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "main": "dist/my-component-library.umd.js",
   "module": "dist/my-component-library.es.js",
   "exports": {
@@ -11,7 +11,9 @@
     },
     "./style.css": "./dist/lib.css"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "vite build",
     "lint": "eslint src --ext ts,tsx",
@@ -24,12 +26,18 @@
   "author": "Renar Tupits",
   "license": "ISC",
   "dependencies": {
+    "@radix-ui/react-tooltip": "^1.1.6",
     "@typescript-eslint/eslint-plugin": "^8.19.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "eslint-plugin-tailwindcss": "^3.17.5",
-    "react-dom": "^19.0.0"
+    "lucide-react": "^0.469.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "^20.10.5",
+    "@types/node": "^20.17.12",
     "@types/react": "18.2.45",
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.3.4",
