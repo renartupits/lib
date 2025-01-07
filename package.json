@@ -1,6 +1,6 @@
 {
   "name": "@renartupits/lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/my-component-library.umd.js",
   "module": "dist/my-component-library.esm.js",
   "types": "dist/index.d.ts",
