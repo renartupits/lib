@@ -1,9 +1,15 @@
 {
   "name": "@renartupits/lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/my-component-library.umd.js",
   "module": "dist/my-component-library.esm.js",
-  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/my-component-library.esm.js",
+      "require": "./dist/my-component-library.umd.js"
+    }
+  },
   "files": ["dist"],
   "scripts": {
     "dev": "vite",
