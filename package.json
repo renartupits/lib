@@ -1,5 +1,5 @@
 {
-  "name": "@renartupits/renar-lib",
+  "name": "@renartupits/lib",
   "version": "1.0.0",
   "main": "dist/my-component-library.umd.js",
   "module": "dist/my-component-library.esm.js",
