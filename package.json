@@ -1,6 +1,6 @@
 {
   "name": "@renartupits/lib",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "main": "dist/my-component-library.umd.js",
   "module": "dist/my-component-library.es.js",
   "exports": {
