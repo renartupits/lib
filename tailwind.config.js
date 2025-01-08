@@ -1,6 +1,6 @@
 module.exports = {
-    darkMode: ['class'],
-    content: ['./src/**/*.{js,ts,jsx,tsx}'],
+	darkMode: ['class'],
+	content: ['./src/**/*.{ts,tsx}', './stories/**/*.{ts,tsx}'],
   theme: {
   	extend: {
   		borderRadius: {
